@@ -1,0 +1,25 @@
+<table class="table table-hover">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Modelo</th>
+      <th scope="col">Año</th>
+      <th scope="col">Marca</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let mrc of service.list">
+      <td (click)="populateForm(mrc)">{{ mrc.modelo }}</td>
+      <td (click)="populateForm(mrc)">{{ mrc.year }}</td>
+      <td (click)="populateForm(mrc)">{{ mrc.marca }}</td>
+      <td>
+        <button
+          (click)="onDelete(mrc.id)"
+          class="btn btn-sm btn-outline-danger"
+        >
+          X
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
