@@ -1,6 +1,7 @@
 # Ajustes Iniciales
-
-Dentro de la carpeta environments modificar el archivo environments.ts y modificar la ruta apiUrl: 'http://marcas.test/api/'  , {importane debe cerrar con slash /}
+- npm install
+- Dentro de la carpeta environments modificar el archivo environments.ts 
+- Modificar la ruta apiUrl: 'http://marcas.test/api/'  , {importane debe cerrar con slash /}
 
 # NgMarcas
 
