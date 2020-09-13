@@ -1,3 +1,7 @@
+# Ajustes Iniciales
+
+Dentro de la carpeta environments modificar el archivo environments.ts y modificar la ruta apiUrl: 'http://marcas.test/api/'  , {importane debe cerrar con slash /}
+
 # NgMarcas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
